@@ -1,0 +1,51 @@
+# Environment Variables
+.env
+.env.production
+.env.development
+.env.local
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Expo & Metro Bundler files
+.expo/
+.expo-shared/
+dist/
+web-build/
+.cache/
+
+# iOS & Android Builds
+android/
+ios/
+*.keystore
+*.p8
+*.p12
+*.cer
+*.mobileprovision
+
+# Logs & Debugging
+*.log
+logs/
+*.log.*
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+
+# macOS & System Files
+.DS_Store
+Thumbs.db
+
+# Testing & Coverage
+coverage/
+jest/
+*.test.js
+*.spec.js
+
+# Babel & Metro
+babel.config.js
+metro.config.js

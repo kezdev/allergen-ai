@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "allergen-ai",
+    "slug": "com.kezdev.allergenai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.kezdev.allergenai",
+      "buildNumber": "3",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "Allow Allergen AI to access your camera",
+        "NSMicrophoneUsageDescription": "Allow Allergen AI to access your microphone"
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "plugins": [
+        [
+          "expo-camera",
+          {
+            "cameraPermission": "Allow Allergen AI to access your camera",
+            "microphonePermission": "Allow Allergen AI to access your microphone",
+            "recordAudioAndroid": false
+          }
+        ]
+      ]
+    },
+    "android": {
+      "package": "com.kezdev.allergenai"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
