@@ -1,8 +1,5 @@
 # Environment Variables
 .env
-.env.production
-.env.development
-.env.local
 
 # Node dependencies
 node_modules/
